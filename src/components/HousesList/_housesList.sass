@@ -1,0 +1,13 @@
+.houses-list
+  display: grid
+  grid-template-columns: repeat(3, 37.9rem)
+  column-gap: 2.2rem
+  row-gap: 3.8rem
+  margin-bottom: 6rem
+  list-style: none
+
+  @media screen and (max-width: 1220px)
+    grid-template-columns: repeat(2, 1fr)
+
+  @media screen and (max-width: 800px)
+    grid-template-columns: 1fr
